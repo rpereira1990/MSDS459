@@ -7,7 +7,6 @@ This chapter explores the transformation of raw text into structured knowledge t
 - **Information Extraction (IE)**: The process of identifying and structuring key facts from unstructured text, such as entities, relationships, and events.
 - **Named Entity Recognition (NER)**: Recognizes predefined categories such as people, organizations, and locations.
 - **Relation Extraction**: Identifies the relationships between entities, e.g., (Barack Obama, born_in, Hawaii).
-- **Entity Linking**: Maps extracted mentions to entries in external databases (e.g., linking "Apple" to the company or the fruit).
 
 > *Key Insight*: IE converts unstructured data into structured triples (subject, predicate, object), forming the foundation of knowledge graphs.
 
@@ -18,7 +17,7 @@ This chapter explores the transformation of raw text into structured knowledge t
 Knowledge Graphs represent interconnected facts and are increasingly used in modern applications for reasoning and answering complex queries.
 
 - **Structure**: A KG is a graph where nodes represent entities and edges represent relationships.
-- **Construction**: KGs can be built manually (e.g., Wikipedia’s infoboxes), automatically (via IE), or semi-automatically (with human-in-the-loop).
+- **Construction**: KGs can be built manually (e.g., Wikipedia’s infoboxes), automatically (via IE), or semi-automatically (with human-in-the-loop/reinforcement-style techniques).
 - **Applications**: Used in search engines, recommender systems, digital assistants, and fraud detection.
 
 > *Key Insight*: Knowledge graphs enable machines to "understand" the world by storing facts in a searchable and extensible form.
@@ -30,8 +29,8 @@ Knowledge Graphs represent interconnected facts and are increasingly used in mod
 The chapter introduces real-world tools and methods used to extract and connect knowledge.
 
 - **Spacy & Hugging Face Transformers**: Used for NER and relationship extraction using pretrained language models.
-- **OpenIE Systems**: Tools like Stanford OpenIE allow extraction without a predefined schema but often with less accuracy.
-- **Embedding-Based KGs**: Techniques like TransE and DistMult embed entities and relations into vector space to support reasoning and link prediction.
+- **OpenIE Systems**: Tools exist to allow extraction without a predefined schema, though often with less accuracy.
+- **Embedding-Based KGs**: Techniques to embed entities and relations into vector space to support reasoning and link prediction.
 - **Challenges**:
   - Ambiguity in language (e.g., "Paris" as a person or a place)
   - Scalability and performance when processing large corpora
