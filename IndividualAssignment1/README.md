@@ -10,6 +10,7 @@ This repository contains individual assignment work for the course covering **Kn
 - `part3.md` – Knowledge Graphs Week 3 Summary
 - `part4.md` – NLP in Action Week 1 Summary
 - `part5.md` – NLP in Action Week 2 Summary
+- 'references.md' - References by Part
 
 ## Repository URL
 
