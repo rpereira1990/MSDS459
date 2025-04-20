@@ -2,7 +2,7 @@
 
 ## 🌍 Theme 1: The Web as a Vast and Complex Knowledge Base
 
-The web is not just a collection of documents—it’s a rich, sprawling **ecosystem of structured, semi-structured, and unstructured information**. Understanding its nature is critical to leveraging it for knowledge extraction.
+The web is not just a collection of documents. Rather, it's an **ecosystem of structured, semi-structured, and unstructured information**. Understanding its nature is critical to leveraging it for knowledge extraction.
 
 - **Heterogeneity of the Web**: Content varies widely in syntax, format, language, structure, and quality.
 - **Types of Web Content**:
