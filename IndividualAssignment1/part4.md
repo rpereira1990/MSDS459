@@ -27,7 +27,7 @@ Traditional keyword-based search methods are limited in understanding user inten
 
 Deploying LLMs in real-world scenarios brings forth several challenges:
 
-- **Hallucinations**: LLMs may generate plausible-sounding but incorrect or nonsensical information.
+- **Hallucinations**: LLMs may generate plausible-sounding but incorrect or nonsensical information. 
 - **Bias and Misinformation**: Models can inadvertently perpetuate biases present in training data, leading to ethical concerns.
 - **Resource Intensity**: Training and running LLMs require significant computational resources, raising environmental and accessibility issues.
 
