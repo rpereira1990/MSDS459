@@ -17,7 +17,7 @@ Focused crawling represents a shift from general-purpose crawling to **goal-dire
 
 ## 🧱 Theme 2: Structure-Aware Information Extraction (IE)
 
-Web information extraction transforms unstructured HTML into **structured, machine-readable data**. This process leverages the semi-structured nature of web content—especially HTML tables and repeated patterns.
+Web information extraction transforms unstructured HTML into **structured, machine-readable data**. This process leverages the semi-structured nature of web content, especially HTML tables and repeated patterns.
 
 - **Granularity of Extraction**:
   - *Record-level*: Extract specific data fields (e.g., prices, titles).
