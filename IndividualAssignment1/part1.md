@@ -1,67 +1,54 @@
-# Part 1 – Knowledge Graphs Week 1 Summary
+# 📚 Week 1 Summary: The Web as a Source of Knowledge
 
-## Summary of Readings
+## 🌍 Theme 1: The Web as a Vast and Complex Knowledge Base
 
-This week’s readings introduce the foundational concepts behind knowledge graphs, including their structure, representation using RDF, and key components like classes, properties, domains, ranges, datatypes, and constraints.
+The web is not just a collection of documents—it’s a rich, sprawling **ecosystem of structured, semi-structured, and unstructured information**. Understanding its nature is critical to leveraging it for knowledge extraction.
 
-## Key Ideas
+- **Heterogeneity of the Web**: Content varies widely in syntax, format, language, structure, and quality.
+- **Types of Web Content**:
+  - *Unstructured*: Natural language text.
+  - *Semi-structured*: HTML, tables, tagged elements.
+  - *Structured*: Databases, schema.org annotations, Linked Data.
+- **Surface vs. Deep Web**:
+  - Surface Web: Indexed by search engines.
+  - Deep Web: Hidden behind forms or dynamic content.
+- **Challenges in Extraction**: Inconsistency, duplication, dynamic content, and multilingualism make automation hard.
 
-### 1. What is a Knowledge Graph?
+> 🧠 Key Idea: To extract knowledge from the web, we must **embrace its diversity** while finding ways to structure chaos.
 
-A knowledge graph is a practical and machine-readable way of representing information about the world. It includes:
+---
 
-- Entities
-- Relationships
-- Attributes
-- Facts
-- Beliefs
-- Provenance (including justifications and uncertainty)
+## 🧠 Theme 2: Knowledge Representation on the Web
 
-Structurally, a knowledge graph is a **labeled, multidirectional, directed graph**, meaning:
+To transform web data into actionable insights, it must be **modeled and represented in structured formats**, enabling machine interpretation.
 
-- Both nodes and edges have labels
-- Edges are directional
+- **Knowledge Bases (KBs)**: Store facts in structured form (e.g., subject–predicate–object triples).
+- **Ontologies**:
+  - Define shared vocabularies, concepts, and relationships.
+  - Enable semantic alignment across diverse datasets.
+- **Schema.org & RDF**:
+  - Schema.org: Vocabulary for embedding structured metadata in web pages.
+  - RDF (Resource Description Framework): Standard model for data interchange on the web.
+- **Knowledge Graphs (KGs)**:
+  - Extend KBs by emphasizing relationships and graph-based reasoning.
 
-### 2. What is the Resource Description Framework (RDF)?
+> 🧠 Key Idea: The power of web-scale extraction lies in its ability to **translate messy content into interconnected, semantically meaningful structures**.
 
-While not strictly a knowledge graph model, RDF is a key framework for representing information on the web.
+---
 
-- RDF uses **triples** to represent data:  
-  **Subject → Predicate → Object**
-- A set of triples forms an **RDF graph**
-- These triples are visually represented as **node–arc–node** diagrams
-- The **arc direction** is important, always going from subject to object
+## 🧰 Theme 3: Tools, Infrastructure, and Techniques for Knowledge Harvesting
 
-### 3. What is an RDFS Class?
+Building large-scale knowledge systems from the web requires robust **tools, frameworks, and methodologies**.
 
-- `rdfs:Class` is the primary unit used to declare **classes** (or **concepts**)
-- Classes represent groups (e.g. `Country`)
-- **Instances** are members of classes (e.g. `United States`, `Germany`)
+- **Crawling & Indexing**:
+  - Web crawlers collect documents; indexers organize content for search and extraction.
+- **Information Extraction (IE)**:
+  - Techniques include named entity recognition, relation extraction, and coreference resolution.
+- **OpenIE vs. Traditional IE**:
+  - *OpenIE*: Extracts relations from text without requiring a predefined schema.
+  - *Traditional IE*: Requires domain-specific patterns and supervision.
+- **Entity Linking & Disambiguation**: Match mentions in text to canonical entries in a KB (e.g., Wikipedia).
 
-### 4. What is a Subproperty?
+> 🧠 Key Idea: The web is only valuable as a knowledge resource when supported by **scalable, intelligent extraction and linking techniques**.
 
-- A **property** is a relationship between subject and object resources
-- `rdfs:subPropertyOf` allows one property to be a **subproperty** of another
-- Subproperties inherit characteristics from their superproperties
-
-### 5. What are Domain and Range of Properties?
-
-- **Domain**: the set of values that can be used as a property’s **subject**
-- **Range**: the set of values that can be used as a property’s **object**
-
-Example:
-- A property like `bornIn` might have a domain of `Person` and a range of `Location`
-
-### 6. What are Datatypes and Constraints?
-
-- **Datatypes** specify the kind of values allowed:
-  - e.g. `educated at` must point to another **item**
-  - `start time` and `end time` must be of type **Time**
-- **Constraints**:
-  - Provide rules for valid data entry
-  - Help guide editors
-  - Enable **automated validators** to flag incorrect statements
-
-## References
-
-Kejriwal, Mayank, Craig A. Knoblock, and Pedro Szekely. 2021. *Knowledge Graphs: Fundamentals, Techniques, and Applications*. Cambridge, MA: MIT Press.  
+---
