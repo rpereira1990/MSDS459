@@ -15,4 +15,4 @@ This repository contains individual assignment work for the course covering **Kn
 ## Repository URL
 
 To clone this repo, use:
-https://github.com/rpereira1990/MSDS459/IndividualAsssignment1
+https://github.com/rpereira1990/MSDS459
