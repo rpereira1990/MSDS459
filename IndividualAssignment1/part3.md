@@ -30,7 +30,7 @@ Because language unfolds sequentially, many IE tasks use **sequence-labeling mod
 - **Long Short-Term Memory (LSTM)**:
   - A type of RNN that solves the vanishing gradient problem.
   - Maintains long-range dependencies more effectively than standard RNNs.
-  - Widely used in NLP for robust context modeling.
+  - Widely used in NLP for robust context modeling. 
 
 > 🧠 Key Idea: Modern IE systems rely on powerful sequence models like CRFs and LSTMs that can model contextual and sequential dependencies—crucial for handling the richness of language.
 
