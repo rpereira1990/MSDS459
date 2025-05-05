@@ -10,8 +10,6 @@ ParadeDB. 2024. “ParadeDB: PostgreSQL-Based Search and Analytics.” https://w
 
 pgvector. 2024. “pgvector: Open-Source Vector Search for PostgreSQL.” https://github.com/pgvector/pgvector
 
-Wikipedia. 2024. “EdgeDB.” https://en.wikipedia.org/wiki/EdgeDB
-
 Wikipedia. 2024. “TimescaleDB.” https://en.wikipedia.org/wiki/TimescaleDB
 
 Wikipedia. 2024. “Vector database.” https://en.wikipedia.org/wiki/Vector_database
